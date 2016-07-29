@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background-color:#000;
+}
+.top .top1{
+	float: left;
+	width: 56px;
+	height: 40px;
+	margin-left: 190px;
+	margin-top: 10px;
+	background: url(./img/0.png) no-repeat;
+}
+.top ul{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.top ul li{
+	float: left;
+	list-style: none;
+	margin-left: 30px;
+	font-family: Microsoft Yahei;
+	font-size: 12px;	
+}
+.top ul li a:hover{
+	color: #cb00da;
+}
+.top li a{
+	text-decoration: none;
+	color: #fff;
+}
+.top .top2{
+	float: left;
+	width: 20px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 40px;
+	background: url(./img/25.png) no-repeat;
+}
+.center{
+	width: 100%;
+	height: 610px;
+	background:url(./img/64.png) no-repeat;
+}
+.center .center0{
+	width: 1000px;
+	height: 560px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: Microsoft Yahei;
+	background: #f4f4f4;
+}
+.center .center0 .center1{
+	float: left;
+	width: 80px;
+	height: 26px;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-left: 50px;
+	padding-top: 6px;
+	padding-left: 8px;
+	background-color: #cb00da;
+}
+.center2{
+	float: left;
+	width: 900px;
+	height: 520px;
+	margin-left: 50px;
+	position: relative;
+	background: url(./img/62.png) no-repeat;
+}
+.center2 .p1{
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	margin-top: 20px;
+	font-weight: bold;
+	margin-left: 28px;
+}
+.center2 .p2{
+	font-size: 12px;
+	font-family: Microsoft Yahei;
+	margin-top: 10px;
+	margin-left: 28px;
+}
+.center2 .p3{
+	width: 180px;
+	height: 16px;
+	line-height: 16px;
+	border-left: 3px red solid; 
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+	font-family: Microsoft Yahei;
+	padding-left: 5px;
+	margin-top: 16px;
+	margin-left: 28px;
+}
+.center2 .p4{
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	margin-top: 14px;
+	margin-left: 28px;
+}
+/*.center3{
+	float: left;
+	width: 990px;
+	height: 110px;
+	margin-top: -42px;
+	background: url(./img/39.png) no-repeat;
+}*/
+.bottom{
+	float: left;
+	width: 100%;
+	height: 68px;
+	line-height: 68px;
+	background: #f4f4f4;
+}
+.bottom ul{
+	margin-left: 100px;
+}
+.bottom li{
+	float: left;
+	margin-left: 26px;
+	list-style: none;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+}
+.bottom li a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+.bottom span{
+	margin-left: 20px;
+	font-size: 12px;
+	/*font-family: Micorsoft Yaihei;*/
+	color: #b0b0b0;
+}

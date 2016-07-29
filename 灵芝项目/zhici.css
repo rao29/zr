@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background-color:#000;
+}
+.top .top1{
+	float: left;
+	width: 56px;
+	height: 40px;
+	margin-left: 190px;
+	margin-top: 10px;
+	background: url(./img/0.png) no-repeat;
+}
+.top ul{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.top ul li{
+	float: left;
+	list-style: none;
+	margin-left: 30px;
+	font-family: Microsoft Yahei;
+	font-size: 12px;	
+}
+.top ul li a:hover{
+	color: #cb00da;
+}
+.top li a{
+	text-decoration: none;
+	color: #fff;
+}
+.top .top2{
+	float: left;
+	width: 20px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 40px;
+	background: url(./img/25.png) no-repeat;
+}
+.center{
+	width: 100%;
+	height: 580px;
+	margin-top: -10px;
+	background: url(./img/59.png) no-repeat;
+}
+.center1{
+	width: 976px;
+	height: 424px;
+	float: left;
+	margin-left: 190px;
+	margin-top: 20px;
+	background-color: #fff;
+}
+.center2{
+	float: left;
+	width: 88px;
+	height: 26px;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 34px;
+	margin-left: 32px;
+	padding-top: 6px;
+	padding-left: 8px;
+	position: relative;
+	font-family: Microsoft Yahei;
+	background-color: #cb00da;
+}
+.center3{
+	float: left;
+	width: 950px;
+	height: 350px;
+	margin-left: 24px;
+	margin-top: -10px;
+	background: url(./img/48.png) no-repeat;
+}
+.center4{
+	width: 860px;
+	height: 150px;
+	margin-left: 32px;
+    margin-top: 36px;
+	/*border: 1px red solid;*/
+}
+.center5{
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+	text-indent: 30px;
+	margin-top: 10px;
+}
+.center6{
+	width: 120px;
+	height: 90px;
+	margin-left: 520px;
+	margin-top: 20px;
+	background: url(./img/23.png) no-repeat;
+}
+.bottom{
+	float: left;
+	width: 100%;
+	height: 68px;
+	line-height: 68px;
+	background: #f4f4f4;
+}
+.bottom ul{
+	margin-left: 100px;
+}
+.bottom li{
+	float: left;
+	margin-left: 26px;
+	list-style: none;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+}
+.bottom li a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+.bottom span{
+	margin-left: 20px;
+	font-size: 12px;
+	/*font-family: Micorsoft Yaihei;*/
+	color: #b0b0b0;
+}

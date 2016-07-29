@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background-color:#000;
+}
+.top .top1{
+	float: left;
+	width: 56px;
+	height: 40px;
+	margin-left: 190px;
+	margin-top: 10px;
+	background: url(./img/0.png) no-repeat;
+}
+.top ul{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.top ul li{
+	float: left;
+	list-style: none;
+	margin-left: 30px;
+	font-family: Microsoft Yahei;
+	font-size: 12px;	
+}
+.top ul li a:hover{
+	color: #cb00da;
+}
+.top li a{
+	text-decoration: none;
+	color: #fff;
+}
+.top .top2{
+	float: left;
+	width: 20px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 40px;
+	background: url(./img/25.png) no-repeat;
+}
+.center{
+	width: 100%;
+	height: 670px;
+	background:url(./img/55.png) no-repeat;
+}
+.center .center0{
+	width: 980px;
+	height: 636px;
+	margin: 0 auto;
+	font-family: Microsoft Yahei;
+	background: #f4f4f4;
+}
+.center .center0 .center1{
+	float: left;
+	width: 80px;
+	height: 26px;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 34px;
+	margin-left: 274px;
+	padding-top: 6px;
+	padding-left: 8px;
+	background-color: #cb00da;
+}
+.center .center0 .center2{
+	float: left;
+	width: 420px;
+	height: 560px;
+	position: relative;
+	z-index: 1;
+	margin-top: 66px;
+    margin-left: -88px;
+	background:url(./img/67.png) no-repeat;
+}
+.center .center0 .center2 .center3{
+	width: 340px;
+	height: 444px;
+	padding-top:50px;
+	margin:0 auto; 
+	/*border: 1px red solid;*/
+}
+.center .center0 .center2 p{
+	font-size: 12px;
+	margin-left: 46px;
+	margin-top: 10px;
+}
+.center .center0 .center2 p input,select,textarea{
+	background-color: #ebebeb;
+	border: none;
+}
+.center .center0 .center2 .button input{
+	width: 72px;
+	height: 30px;
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	border: none;
+	margin-left: 260px;
+    margin-top: 60px;
+	background-color: #70007a;
+}
+.center .center0 .center2 .w{
+	font-size: 14px;
+	margin-left: 270px;
+    margin-top: 14px;
+}
+.bottom{
+	float: left;
+	width: 100%;
+	height: 68px;
+	line-height: 68px;
+	background: #f4f4f4;
+}
+.bottom ul{
+	margin-left: 100px;
+}
+.bottom li{
+	float: left;
+	margin-left: 26px;
+	list-style: none;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+}
+.bottom li a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+.bottom span{
+	margin-left: 20px;
+	font-size: 12px;
+	/*font-family: Micorsoft Yaihei;*/
+	color: #b0b0b0;
+}
+

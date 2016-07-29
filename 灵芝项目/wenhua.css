@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background-color:#000;
+}
+.top .top1{
+	float: left;
+	width: 56px;
+	height: 40px;
+	margin-left: 190px;
+	margin-top: 10px;
+	background: url(./img/0.png) no-repeat;
+}
+.top ul{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.top ul li{
+	float: left;
+	list-style: none;
+	margin-left: 30px;
+	font-family: Microsoft Yahei;
+	font-size: 12px;	
+}
+.top ul li a:hover{
+	color: #cb00da;
+}
+.top li a{
+	text-decoration: none;
+	color: #fff;
+}
+.top .top2{
+	float: left;
+	width: 20px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 40px;
+	background: url(./img/25.png) no-repeat;
+}
+.center{
+	width: 100%;
+	height: 950px;
+	background: url(./img/68.png) no-repeat;
+}
+.center1{
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 190px;
+	font-family: Microsoft Yahei;
+}
+.center2{
+	width: 1000px;
+	height: 860px;
+	margin: 0 auto;
+	margin-top:30px; 
+	background: #fff;
+	border-top: 1px #1f1a2e solid;
+}
+.center2_1{
+	width: 1000px;
+	height: 105px;
+}
+.center2_1 i{
+	float: left;
+	width: 10px;
+	height: 105px;
+	margin-left: 10px;
+	background: url(./img/44.png) no-repeat;
+}
+.center2_1 .p1{
+	float: left;
+	width: 940px;
+	height: 40px;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 28px;
+}
+.center2_2{
+	width: 1000px;
+	height: 112px;
+}
+.center2_2 i{
+	float: left;
+	width: 10px;
+	height: 112px;
+	margin-left: 10px;
+	background: url(./img/45.png) no-repeat;
+}
+.center2_2 .p2{
+	float: left;
+	width: 940px;
+	height: 40px;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.center2_2 .box{
+	width: 76px;
+	height: 34px;
+	line-height: 34px;
+	color: #51abb6;
+	font-family: Microsoft Yahei;
+	margin-left: 32px;
+	padding-left: 10px;
+	border: 1px #51abb6 solid;
+}
+.center2_3{
+	width: 1000px;
+	height: 200px;
+}
+.center2_3 i{
+	float: left;
+	width: 10px;
+	height: 200px;
+	margin-left: 10px;
+	background: url(./img/46.png) no-repeat;
+}
+.center2_3 .box1{
+	width: 76px;
+	height: 34px;
+	line-height: 34px;
+	color: #c6a144;
+	font-family: Microsoft Yahei;
+	margin-left: 32px;
+	padding-left: 10px;
+	border: 1px #c6a144 solid;
+}
+.center2_3 .p3{
+	float: left;
+	width: 940px;
+	height: 30px;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.center2_3 .p31{
+	float: left;
+	width: 940px;
+	height: 30px;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.center2_3 .p32{
+	float: left;
+	width: 940px;
+	height: 30px;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.center2_3 .p33{
+	float: left;
+	width: 940px;
+	height: 30px;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.center2_4{
+	width: 1000px;
+	height: 415px;
+}
+.center2_4 i{
+	float: left;
+	width: 10px;
+	height: 415px;
+	margin-left: 10px;
+	background: url(./img/47.png) no-repeat;
+}
+.center2_4 .box2{
+	width: 76px;
+	height: 34px;
+	line-height: 34px;
+	color: #ed9b92;
+	font-family: Microsoft Yahei;
+	margin-left: 32px;
+	padding-left: 10px;
+	border: 1px #ed9b92 solid;
+}
+.center2_4 .one{
+	width: 80px;
+	height: 20px;
+	font-size: 14px;
+	margin-left: 32px;
+	margin-top:10px; 
+	font-family: Microsoft Yahei;
+}
+.center2_4 .two{
+	width: 950px;
+	height: 20px;
+	font-size: 12px;
+	margin-left: 32px;
+	margin-top:5px; 
+	font-family: Microsoft Yahei;
+}
+.center2_4 .three{
+	width: 940px;
+	height: 40px;
+	font-size: 12px;
+	margin-left: 32px;
+	margin-top:5px; 
+	font-family: Microsoft Yahei;
+}
+.bottom{
+	float: left;
+	width: 100%;
+	height: 68px;
+	line-height: 68px;
+	background: #f4f4f4;
+}
+.bottom ul{
+	margin-left: 100px;
+}
+.bottom li{
+	float: left;
+	margin-left: 26px;
+	list-style: none;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+}
+.bottom li a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+.bottom span{
+	margin-left: 20px;
+	font-size: 12px;
+	/*font-family: Micorsoft Yaihei;*/
+	color: #b0b0b0;
+}
